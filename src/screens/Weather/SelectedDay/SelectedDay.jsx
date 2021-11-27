@@ -20,7 +20,6 @@ export const SelectedDay = ({ index }) => {
   const data = useSelector(selectForecastData)?.daily;
   const city = useSelector(selectCity);
   const [changeView, setChangeView] = useState(true);
-
   return (
     <div>
       {changeView ? (
